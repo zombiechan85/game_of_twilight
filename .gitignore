@@ -2,3 +2,5 @@ tmp
 scenario
 *~
 index.html~
+main.backup.js
+#main.js#
