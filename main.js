@@ -24,7 +24,7 @@ var player = null;
 var scroll_flag = null;
 
 var serif = [
-"こんなところで何をしているのだろうか…",
+"ぎょう虫が脳まで達しました。",
 "あはんうふん！",
 "ぬっころしてやんよ！"
 ];
