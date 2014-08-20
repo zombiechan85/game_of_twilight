@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-path='/home/zombiechan/proj/game/game_of_twilight'
+path='your/repos'
 Dir.chdir(path)
-comment="ume > 特定のキーワードにマッチした発言があったらそれをIssueにしてくれる。"
+comment="you > 特定のキーワードにマッチした発言があったらそれをIssueにしてくれる。"
 time = Time.now.strftime("%Y-%m-%d %H:%M:%S")
 title = "#{time} botからの投稿"
-if comment.match(/^ume/)
+if comment.match(/^you/)
   body = comment.match(/(?<=\>)(.*)/)
 end
 system("git issue add --title=\'[from bot] #{title}\' --body=\'#{body}\'")
